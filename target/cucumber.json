@@ -1,0 +1,616 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Ananth ram"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8321537228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "entering login credentials for trakeye application",
+        "description": "",
+        "id": "trak-eye-application-login;entering-login-credentials-for-trakeye-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7333599215,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i have firefox browser opened on my desktop",
+            "match": {
+              "location": "Login.i_have_firefox_browser_opened_on_my_desktop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4006228456,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Bang_North\" and \"Lab@1234\"  user name and password on the page as credentials",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bang_North",
+                  "offset": 9
+                },
+                {
+                  "val": "Lab@1234",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.i_enter_and_user_name_and_password_on_the_page_as_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25863,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should log in successfully",
+            "match": {
+              "location": "Login.i_should_log_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Trak eye application login",
+    "description": "",
+    "id": "trak-eye-application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag0"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 722931,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Services.before()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "service create",
+        "description": "",
+        "id": "service-feature-test;service-create;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000082105,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click \"service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "service",
+                  "offset": 9
+                }
+              ],
+              "location": "Services.i_click(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6434646993,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i enter values \"name1\",\"helo\",\"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name1",
+                  "offset": 16
+                },
+                {
+                  "val": "helo",
+                  "offset": 24
+                },
+                {
+                  "val": "success",
+                  "offset": 31
+                }
+              ],
+              "location": "Services.i_enter_values(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@service"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 651910,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Services.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "service create",
+        "description": "",
+        "id": "service-feature-test;service-create;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999550067,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click \"service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "service",
+                  "offset": 9
+                }
+              ],
+              "location": "Services.i_click(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5602993041,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i enter values \"name2\",\"helo1\",\"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name2",
+                  "offset": 16
+                },
+                {
+                  "val": "helo1",
+                  "offset": 24
+                },
+                {
+                  "val": "Fail",
+                  "offset": 32
+                }
+              ],
+              "location": "Services.i_enter_values(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@service"
+          }
+        ]
+      }
+    ],
+    "name": "service feature test",
+    "description": "",
+    "id": "service-feature-test",
+    "keyword": "Feature",
+    "uri": "services.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 940919,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseCreation.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "trak-eye-case-creation;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45568,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to write a step with",
+            "match": {
+              "location": "CaseCreation.i_want_to_write_a_step_with()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4231881464,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I check for the in step",
+            "match": {
+              "location": "CaseCreation.i_check_for_the_in_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24631,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I verify the  in step",
+            "match": {
+              "location": "CaseCreation.i_verify_the_in_step()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 382197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseCreation.before()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "create new case",
+        "description": "",
+        "id": "trak-eye-case-creation;create-new-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4725418395,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "i am in the create case page",
+            "match": {
+              "location": "CaseCreation.i_am_in_the_create_case_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30379,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "i click the create case link on the page",
+            "match": {
+              "location": "CaseCreation.i_click_the_create_case_link_on_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42695,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "i should fill the form",
+            "match": {
+              "location": "CaseCreation.i_should_fill_the_form()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 468817,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseCreation.before()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Business rule create a service1.",
+        "description": "",
+        "id": "trak-eye-case-creation;business-rule-create-a-service1.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2030947689,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user creates a service by clicking create service link and fills \"desc1\"  \"26/05/2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "desc1",
+                  "offset": 66
+                },
+                {
+                  "val": "26/05/2017",
+                  "offset": 75
+                }
+              ],
+              "location": "CaseCreation.user_creates_a_service_by_clicking_create_service_link_and_fills(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 446649,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseCreation.before()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Business rule create a service1.",
+        "description": "",
+        "id": "trak-eye-case-creation;business-rule-create-a-service1.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 593106415,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user creates a service by clicking create service link and fills \"desc1\"  \"26/05/2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "desc1",
+                  "offset": 66
+                },
+                {
+                  "val": "26/05/2017",
+                  "offset": 75
+                }
+              ],
+              "location": "CaseCreation.user_creates_a_service_by_clicking_create_service_link_and_fills(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 472512,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CaseCreation.before()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Business rule create a service1.",
+        "description": "",
+        "id": "trak-eye-case-creation;business-rule-create-a-service1.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397247115,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user creates a service by clicking create service link and fills \"desc1\"  \"26/05/2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "desc1",
+                  "offset": 66
+                },
+                {
+                  "val": "26/05/2017",
+                  "offset": 75
+                }
+              ],
+              "location": "CaseCreation.user_creates_a_service_by_clicking_create_service_link_and_fills(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "trak eye case creation",
+    "description": "I want to use this template for my feature file",
+    "id": "trak-eye-case-creation",
+    "keyword": "Feature",
+    "uri": "usercreate.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag3"
+      }
+    ]
+  }
+]

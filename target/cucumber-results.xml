@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="47.681495">
+<testcase classname="Trak eye application login" name="entering login credentials for trakeye application" time="19.661391">
+<system-out><![CDATA[Given i have firefox browser opened on my desktop...........................passed
+When I enter "Bang_North" and "Lab@1234"  user name and password on the page as credentials.passed
+Then I should log in successfully...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="service feature test" name="service create" time="8.435452">
+<system-out><![CDATA[Given I click "service".....................................................passed
+Then i enter values "name1","helo","success"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="service feature test" name="service create 2" time="7.603195">
+<system-out><![CDATA[Given I click "service".....................................................passed
+Then i enter values "name2","helo1","Fail"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="trak eye case creation" name="Title of your scenario outline" time="4.232893">
+<system-out><![CDATA[Given I want to write a step with...........................................passed
+When I check for the in step................................................passed
+Then I verify the  in step..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="trak eye case creation" name="create new case" time="4.725874">
+<system-out><![CDATA[Given i am in the create case page..........................................passed
+When i click the create case link on the page...............................passed
+Then i should fill the form.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="trak eye case creation" name="Business rule create a service1." time="2.031417">
+<system-out><![CDATA[When user creates a service by clicking create service link and fills "desc1"  "26/05/2017".passed
+]]></system-out>
+</testcase>
+<testcase classname="trak eye case creation" name="Business rule create a service1. 2" time="0.593553">
+<system-out><![CDATA[When user creates a service by clicking create service link and fills "desc1"  "26/05/2017".passed
+]]></system-out>
+</testcase>
+<testcase classname="trak eye case creation" name="Business rule create a service1. 3" time="0.39772">
+<system-out><![CDATA[When user creates a service by clicking create service link and fills "desc1"  "26/05/2017".passed
+]]></system-out>
+</testcase>
+</testsuite>
